@@ -20,4 +20,4 @@ Kills the player that types the command.
 Copyright (c) 2013, Jonathan Price under [the BSD 2-Clause License](LICENSE)
 
 ### Contact (For issues, suggestions, etc)
-[JC2:MP Forum Thread](#)
+[JC2:MP Forum Thread](http://www.jc-mp.com/forums/index.php/topic,4303.0.html)

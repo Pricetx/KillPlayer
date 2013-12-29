@@ -2,7 +2,7 @@
 -- Additionally, will kill a player if they type "/kill" ingame
 -- Original Author, Jonathan Price
 -- License can be found at [URL]
--- Version: 0.1
+-- Version: 0.2
 class 'KillPlayer'
 
 function KillPlayer:__init()
@@ -26,6 +26,7 @@ function KillPlayer:ConsoleKill(args)
 		for player in Server:GetPlayers() do
 			player:SetHealth(0)
 		end
+		print("All players have been killed")
 		return
 	end
 
@@ -33,6 +34,7 @@ function KillPlayer:ConsoleKill(args)
 	for player in Server:GetPlayers() do
 		if player:GetName() == args.text then
 			player:SetHealth(0)
+			print(player:GetName() .. " has been killed")
 			return
 		end
 	end

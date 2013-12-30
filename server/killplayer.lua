@@ -1,7 +1,7 @@
 -- Script to kill a single player, or all players from the server console
 -- Additionally, will kill a player if they type "/kill" ingame
 -- Original Author, Jonathan Price
--- License can be found at [URL]
+-- License can be found at http://github.com/Pricetx/killplayer/blob/master/LICENSE
 -- Version: 0.2
 class 'KillPlayer'
 
